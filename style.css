@@ -1,0 +1,21 @@
+/*
+Color Palette:
+background color:#E3B04B
+font color:#  
+secondary color: #   
+tertiary color: #  
+*/
+
+header {
+    margin: 0.1rem;
+    letter-spacing: 1.0rem;
+    text-align: center;
+    border-top: 3px solid #FFE3ED;
+    border-bottom: 3px solid #FFE3ED;
+    border-right: 3px solid  #FFE3ED;
+    border-left: 3px solid  #FFE3ED;
+    padding: 1.0rem;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
+    text-transform: Uppercase;
+    font-size: 1.0rem;
+}
