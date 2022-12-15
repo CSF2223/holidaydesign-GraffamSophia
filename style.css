@@ -14,7 +14,8 @@ header {
     border-bottom: 3px solid #D35D6E;
     border-right: 3px solid  #D35D6E;
     border-left: 3px solid  #D35D6E;
-    padding: 0.5rem;
+    border-style: dotted;
+    padding: 1.0rem;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
     text-transform: Uppercase;
     font-size: 1.0rem;
@@ -27,13 +28,19 @@ body {
     margin: 1;
 }
 
+.Holiday {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
 .greeceBoats img {
     width: 100%;
     height:auto;
 }
 
 .greeceTxt {
-    text-align: right;
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 .veniceCarnival img {
@@ -42,7 +49,8 @@ body {
 }
 
 .veniceTxt {
-    text-align: left;
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 
@@ -52,30 +60,24 @@ body {
 }
 
 .winterTxt {
-    text-align: right;
-}
-
-
-.heroText {
-    font-size: 0.7rem;
-    padding-bottom: 2rem;
-    letter-spacing: 2px;
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 
 @media (min-width: 800px) {
    .greeceBoats {
-        width: 50%;
+        width: 100%;
         display: block;
         margin-left: auto;
-        margin-right: 50%;
+        margin-right: auto;
         margin-top: 2rem;
     }
     
     .veniceCarnival {
         width: 50%;
         display: block;
-        margin-left: 50%;
+        margin-left: auto;
         margin-right: auto;
         margin-top: 2rem;
     }
@@ -84,8 +86,14 @@ body {
         width: 50%;
         display: block;
         margin-left: auto;
-        margin-right: 50%;
+        margin-right: auto;
         margin-top: 2rem;
+    }
+    
+    
+    .Holiday {
+        display: flex;
+        flex-direction: row;
     }
     
     
