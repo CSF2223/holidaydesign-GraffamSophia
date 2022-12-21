@@ -1,0 +1,103 @@
+/*
+Color Palette:
+background color:#E3B04B
+font color:#  
+secondary color: #   
+tertiary color: #  
+*/
+
+header {
+    margin: 0.0rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    border-top: 3px solid #D35D6E;
+    border-bottom: 3px solid #D35D6E;
+    border-right: 3px solid  #D35D6E;
+    border-left: 3px solid  #D35D6E;
+    border-style: dotted;
+    padding: 1.0rem;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
+    text-transform: Uppercase;
+    font-size: 1.0rem;
+}
+
+body {
+    background-color: #184D47;
+    color:#D35D6E;
+    font-family: 'Cormorant Garamond', serif;;
+    margin: 1;
+}
+
+.Holiday {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.greeceBoats img {
+    width: 100%;
+    height:auto;
+}
+
+.greeceTxt {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.veniceCarnival img {
+    width: 100%;
+    height:auto;
+}
+
+.veniceTxt {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+.winterSolstice img {
+    width: 100%;
+    height:auto;
+}
+
+.winterTxt {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+@media (min-width: 800px) {
+   .greeceBoats {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    
+    .veniceCarnival {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    
+    .winterSolstice {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    
+    
+    .Holiday {
+        display: flex;
+        flex-direction: row;
+        Justify-content: space-evenly;
+        Flex-wrap: wrap;
+    }
+    
+    
+    
+}
